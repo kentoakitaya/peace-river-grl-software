@@ -1,0 +1,26 @@
+# Reproducibility environment for the Peace River OGS workflow.
+#
+# This environment covers Python-based OGS project generation, mesh handling,
+# ParaView postprocessing, figure generation, and aggregation scripts.
+# External PETSc/MPI-enabled OGS executables and ARC runtime modules are not
+# captured by this Conda environment alone.
+
+name: ogs_env
+channels:
+  - https://conda.software.inl.gov/public
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - paraview=6.0.1
+  - vtk=9.5.2
+  - python-gmsh=4.13.1
+  - pip:
+      - cmcrameri==1.9
+      - ogs==6.5.4
+      - matplotlib==3.10.1
+      - meshio==5.3.5
+      - numpy==2.2.4
+      - pandas==2.2.3
+      - pyyaml==6.0.2
+      - scipy==1.15.2

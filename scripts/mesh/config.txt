@@ -1,0 +1,24 @@
+input_files:
+  - ./Surface_elevation
+  - ./Permian_Stoddart_Rundle
+  - ./Banff_Exshaw
+  - ./Wabamun
+  - ./Winterburn
+  - ./Woodbend_excluding_Leduc
+  - ./Woodbend
+  - ./Leduc
+  - ./BeaverhillLake
+  - ./ElkPoint
+  - ./Precambrian_top
+
+output_dir: ./isochore_maps
+
+x_center: 417150.0
+y_center: 6233280.0
+Lx: 220000.0
+Ly: 220000.0
+dx: 2000.0
+dy: 2000.0
+strike_deg: 49.43
+x_corner_pt: 262051.263
+y_corner_pt: 6245295.891

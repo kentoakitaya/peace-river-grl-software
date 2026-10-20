@@ -1,0 +1,13 @@
+# Example local path configuration.
+# Copy this file to an untracked local config file and replace placeholders.
+
+old_workspace_root: "/path/to/local/peace_river"
+repo_root: "/path/to/github/peace_river_grl_workspace"
+injection_csv: "/path/to/local/approved_injection.csv"
+processed_seismic_catalog_dir: "/path/to/local/peace_river/seismic_catalogs/processed_catalogs"
+ogs_results_raw_dir: "/path/to/nas/peace_river/ogs/results_raw"
+ogs_results_postprocessed_dir: "/path/to/nas/peace_river/ogs/results_postprocessed"
+pressure_timeseries_dir: "/path/to/local/peace_river/ogs/results_postprocessed/pressure_timeseries"
+params_generator_dir: "/path/to/local/peace_river/ogs/input/params_generator"
+local_output_dir: "/path/to/local/peace_river_outputs"
+banff_workshop2026_output_dir: "/path/to/local/peace_river/meeting/2026_0617"
